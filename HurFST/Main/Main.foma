@@ -1,7 +1,0 @@
-source ../Morphology/Morphology.foma
-source ../Segmental/Segmental.foma
-define BoundaryRemoval Boundary -> 0 || _ ;
-show flag-is-epsilon
-set flag-is-epsilon ON
-show flag-is-epsilon
-define Main Morphology .o. Segmental .o. BoundaryRemoval;
