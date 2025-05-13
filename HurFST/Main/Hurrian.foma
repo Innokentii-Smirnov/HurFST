@@ -1,0 +1,12 @@
+source ../Main/Main.foma
+define TransitivityMarking "-TR" -> 0 || ".PRS" _ ["-2A"|"-3A"] ".SG";
+define VerbalNumberCumulation "-PL" -> ".PL" || "-2A" _ ;
+define Cumulation VerbalNumberCumulation;
+define PluralEpenthesis [..] <-> "-EPNTH" || "-PL" _ ["-ERG"|"-COM"|"-EQU2"|"-ABL/INS"];
+define PronEpenthesis [..] <-> "-EPNTH" || ["2PRON" ".SG"|"1PRON" "-PL"] _ "-DIR";
+define RelatorPlural [..] <-> ".PL" || "-RELAT" _ "-PL";
+define Person "-1A" | "-2A" | "-3A";
+define ZeroExponence ".PRS" -> 0 || Phoneme _  Person;
+define DynamicMorphotactics TransitivityMarking.i .o. Cumulation .o. 
+	PluralEpenthesis .o. PronEpenthesis .o. RelatorPlural .o. ZeroExponence;
+define Hurrian DynamicMorphotactics .o. Main;

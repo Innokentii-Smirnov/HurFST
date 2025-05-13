@@ -1,0 +1,13 @@
+source ../CharacterClasses/CharacterClasses.foma
+define EmbracketedElision "(" ["+"|Phoneme]+ (">") ")" -> 0 || _ ;
+define Devoicing b -> p, d -> t, g -> k, v -> f, ž -> š, ġ -> ḫ || _ ;
+define ProgrNasalAssimilation n -> š // š ("=") _ ;
+define Triple "-" š -> 0 || _ "=" š^2; 
+define RegrNasalAssimilation n -> š || _ "+" š;
+define LabialAssimilation f -> p || p "-" _ ,, f -> t || t "-" _ ;
+define Morphonology EmbracketedElision .o. Devoicing .o. ProgrNasalAssimilation .o. Triple .o.
+	RegrNasalAssimilation .o. LabialAssimilation;
+define Voicing p -> b, t -> d, k -> g, f -> v, š -> ž, ḫ -> ġ || V (Boundary) _ (Boundary) V ,
+														_ (Boundary) R , R (Boundary)_ , _ .#.;
+define Phonology Voicing;
+define Segmental Morphonology .o. Phonology;

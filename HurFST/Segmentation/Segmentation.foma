@@ -1,0 +1,8 @@
+load stack ../Morphology/Morphology.bin
+define Morphology;
+source ../Segmental/Segmental.foma
+define BoundaryRemoval Boundary -> 0 || _ ;
+show flag-is-epsilon
+set flag-is-epsilon ON
+show flag-is-epsilon
+define Segmentation Morphology.l .o. Segmental .o. BoundaryRemoval;

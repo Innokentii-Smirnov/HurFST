@@ -1,0 +1,4 @@
+source ../Main/Main.foma
+define Word Main;
+define Sentence Word [" " Word]*;
+ 

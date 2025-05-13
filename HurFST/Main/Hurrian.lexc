@@ -1,0 +1,1133 @@
+Multichar_Symbols .NUM -INF -SG -NMN -RES -STAT .NEG -ANTIP -PAT -CVB -PTCP 1PRON 2PRON 3PRON .PASS -IMP -MOD .ACT -POT -OPT -DESID -1JUSS -3JUSS -PURP .A -MED .PFV -NEG 1SG 2SG 3SG 1PL 2PL 3PL .ADV .CONJ .SG .PL -PL -RELAT -1POSS -2POSS -3POSS .ABS .ERG -ERG -GEN -DAT -DIR -ABL -COM -ESS -INS -EQU1 -EQU2 -ASSOC -ABL/INS -DIR/LOC -EPNTH =1SG =2SG =3SG =1PL =2PL =3PL =CON =EMPH =PART @P.STACKING.ON@ @D.STACKING.ON@ .PRS -PST -FUT -TR -INT -1A -2A -3A @P.VI.ON@ @R.VI.ON@ @D.VI.ON@ @P.DER.ON@ @R.DER.ON@ @D.DER.ON@ @P.SUBJ.1SG@ @P.SUBJ.2SG@ @P.SUBJ.3SG@ @P.SUBJ.1PL@ @P.SUBJ.2PL@ @P.SUBJ.3PL@ @D.SUBJ.1SG@ @D.SUBJ.2SG@ @D.SUBJ.3SG@ @D.SUBJ.1PL@ @D.SUBJ.2PL@ @D.SUBJ.3PL@ @P.NUM.PL@ @R.NUM.PL@ @D.NUM.PL@
+
+Definitions
+	A = a|ā;
+	E = e|ē;
+	I = i|ī;
+	O = o|ō;
+	U = u|ū;
+
+LEXICON Root
+Verb;
+Adverb;
+Conjunction;
+Pronoun;
+Numeral;
+Noun;
+
+LEXICON Verb
+ag		vi; ! sich erheben
+ag		vt; ! aufnehmen; tragen, bringen; führen, lenken, leiten
+al		vt; ! sagen
+am		vt; ! ansehen
+am		vt; ! brennen
+an		vt;
+ar		vt; ! geben
+id		vt; ! schlagen
+ul		vt; ! fressen
+un		vi; ! kommen
+ūn		vi; ! kommen
+un		vt; ! bringen
+ūn		vt; ! bringen
+ūr		vt; ! wollen
+ḫā		vt; ! nehmen
+ḫu		vt; ! rufen
+pa		vt; ! bauen
+āmm		vt; ! erreichen
+ašḫ		vt; ! opfern
+ašk		vt; ! fragen?
+ašš		vt; ! waschen, abwaschen
+irn		vt;
+itk		vt; ! reinigen
+itt		vi; ! gehen
+faž		vt; ! invade
+fur		vt; ! sehen
+fūr		vt; ! sehen
+ḫab		vi; ! gehen
+ḫan		vt; ! gebären
+ḫāž		vt; ! hören
+ḫaž		vt; ! hören
+ḫāl		vt; ! carry away
+ḫic		vt; ! grieve
+ḫil		vt; ! mitteilen
+ḫub		vt; ! zerstören
+ḫuž		vt; ! binden
+kad		vt; ! sprechen
+kād		vt; ! sprechen
+keb		vt; ! tragen
+kel		vt; ! satisfy
+kev		vt; ! legen
+kir		vt;
+kīr		vt;
+kol		vt; ! let aside
+kōl		vt; ! let aside
+kul		vt; ! sagen
+kūd		vt;
+kūd		vi; ! fallen
+kut		vi; ! fallen
+koz		vt; ! zurückhalten
+mād		vi; ! be wise
+meġ		vi;
+mēġ		vi;
+mel		vt; ! expell
+muž		vt; ! shape
+mūž		vt; ! shape
+naḫ		vt; ! sehen
+nāv		vi; ! grasen
+pal		vt; ! wissen, kennen
+pār		vt; ! draw
+ped		vt;
+pic		vi; ! rejoice
+piž		vt; ! spit out
+puġ		vt; ! exchange
+pūz		vt; ! dip
+šid		vt; ! verfluchen
+šir		vt; ! singen
+šār		vt; ! wünschen
+tab		vt; ! gießen
+tād		vt; ! lieben
+tag		vi; ! be resplendent
+tal		vt; ! ausziehen
+tān		vt; ! machen
+tān		vi; ! machen
+tav		vt; ! cast
+taž		vt; ! add
+teġ		vi; ! grow up
+tēl		vt; ! increase
+ton		vt; ! equip
+tūn		vt; ! overcome
+tūr		vi; ! go down
+zaz		vt; ! zu essen geben, verköstigen
+alad	vt; ! zahlen, kaufen
+faġr	vt; ! be good towards
+ḫalv	vt; ! enclose
+ḫemz	vt; ! binden; gürten
+ḫezm	vt; ! binden; gürten
+ḫill	vt; ! sagen
+ḫubl	vt; ! zerbrechen
+kunz	vi; ! sich niederwerfen
+naḫḫ	vi; ! sitzen, sich setzen
+naḫḫ	vt; ! sitzen lassen
+nakk	vt; ! entlassen, freilassen
+nakk	vi;
+parn	vt;
+pašš	vt; ! schicken
+sull	vt; ! legare
+sull+ud	vt; ! slegare
+samm	vt; ! strappare
+sikk	vt; ! brechen
+sugm	vi; ! eintreten
+šalġ	vt; ! heed
+šeḫl	vi; ! rein sein
+šial	vi; ! stack
+šild	v;
+tapš	vi; ! rebel
+tašp	vt; ! zerstören
+zimz 	vt;
+šeġal	vi; ! be pure
+šeġel	vi; ! rein sein
+firvir	vt; ! lösen
+šin+apš	vi; ! cambiare
+sul+ud	vt; ! lösen
+talmōv	vi; ! grow big
+kel+gel	vt; ! hoch stellen
+keli+gel	vt; ! hoch stellen
+ale		vi; ! approach
+ḫimz+atḫ	vt;
+pic+and		vt;
+tupp	vi; ! vorhanden sein
+mann	vs; ! sein
+mānn	vs; ! sein
+tupp	vs; ! vorhanden sein
+ur		vs; ! existieren
+
+LEXICON vs
+-STAT:-ɛ		WordBoundary;
+-STAT:-ɪ		WordBoundary;
+-STAT:-o		NonErgativeNegation;
+-NEG:-obur		WordBoundary;
+-NEG:-ōbur		WordBoundary;
+CommonVerb;
+
+LEXICON v
+vi;
+vt;
+
+LEXICON vi
+@P.VI.ON@	Tense;
+-IMP:-a		WordBoundary;
+CommonVerb;
+-INT-b:-a-b		WordBoundary;
+@P.VI.ON@@P.DER.ON@		VerbalDerivation;
+
+LEXICON vt
+Tense;
+-IMP:-e			OptFinalModalPlural;
+-IMP:-i			OptFinalModalElement;
+-IMP.PASS:-o	OptFinalModalElement;
+CommonVerb;
+@P.DER.ON@		VerbalDerivation;
+
+LEXICON Antipassive
+-ANTIP:-i		PostAtipassive;
+-ANTIP:-ī		PostAtipassive;
+
+LEXICON PostAtipassive
+-b				WordBoundary;
+-PTCP:-ri		WordBoundary;
+OptNominalization;
+NonErgativeNegation;
+
+LEXICON NonErgativeNegation
+-NEG:-kkɑ		OptNominalization;
+
+LEXICON OptFinalModalPlural
+FinalModalPlural;
+WordBoundary;
+
+LEXICON OptFinalModalElement
+-ž		#;
+WordBoundary;
+
+LEXICON CommonVerb
+Nonfinite;
+Polarity;
+Aspect;
+Mood;
+Voice;
+
+LEXICON VerbalDerivation
+-aḫḫ	InheritedValence;
+-al		InheritedValence;
+-am		InheritedValence;
+-an		vt;
+-ān		vt;
+-ann	vt;
+-ar		InheritedValence;
+-ār		InheritedValence;
+-āz		InheritedValence;
+-až		InheritedValence;
+-āž		InheritedValence;
+-ad		InheritedValence;
+!-il	InheritedValence;
+-ill	InheritedValence;
+-iž		InheritedValence;
+!-l		InheritedValence;
+!-d		InheritedValence;
+-oġ		InheritedValence;
+-ōġ		InheritedValence;
+-ūġ		InheritedValence;
+-iġ		InheritedValence;
+-ōl		InheritedValence;
+-ol		InheritedValence;
+-om		InheritedValence;
+-ōr		InheritedValence;
+-ūr		InheritedValence;
+-ur		InheritedValence;
+!-ōž	InheritedValence;
+!-ud	InheritedValence;
+-ugar	InheritedValence;
+-ugār	InheritedValence;
+-upp	InheritedValence;
+-RES:-ɑšt	InheritedValence;
+-RES:-ōšt	InheritedValence;
+-RES:-ošt	InheritedValence;
+-RES:-išt	InheritedValence;
+-ešḫ	InheritedValence;
+-ull	i;
+-ūll	i;
+
+LEXICON InheritedValence
+@R.VI.ON@	vi;
+@D.VI.ON@	vt;
+
+LEXICON Nonfinite
+Converb;
+-PAT:-o			Participle;
+-PAT:-au		Participle;
+-PURP:-ai		PurposiveConverbNumber;
+-INF:-umme		WordBoundary;
+-INF:-umm(e)	VocalicCase;
+-INF:-umme		ConsonantalCase;
+
+LEXICON Converb
+<"-CVB" .x. "-" [I|u] {+m+} A I ({+n})>	WordBoundary;
+
+LEXICON PurposiveConverbNumber
+SingularMarker; 
+NonSecondPersonPluralMarker;
+
+LEXICON SingularMarker
+-SG:-n		WordBoundary;
+
+LEXICON Participle
+-PTCP:-re		WordBoundary;
+
+LEXICON Polarity
+-NEG:-ōd	Aspect;
+-NEG:-ūd	Aspect;
+-NEG:-ud	Aspect;
+
+LEXICON Aspect
+@P.NUM.PL@	PluralPerfective;
+Perfective;
+
+LEXICON PluralPerfective
+-PL.ERG:-id	Perfective;
+
+LEXICON Perfective
+-TR.PFV:-ō	PerfectiveCont;
+-TR.PFV:-o	PerfectiveCont;
+
+LEXICON PerfectiveCont
+-3A.SG:-m	WordBoundary;
+-b			WordBoundary;
+@R.NUM.PL@	WordBoundary;
+
+LEXICON Mood
+-MOD.ACT-l:-i-l		ilMoods;
+-o-l				olMoods;
+PremodalPlural;
+-i		Voluntative;
+!Cohortative;
+Potential;
+Optative;
+Desiderative;
+-i		Jussive;
+-i		Vetitive;
+IntransitiveVetitive;
+
+LEXICON ilMoods
+Potential;
+Optative;
+Desiderative;
+Purposive;
+
+LEXICON olMoods
+Potential;
+Optative;
+Purposive;
+
+LEXICON PremodalPlural
+-PL.A:-it						PostPluralMood;
+-PL.A:-(i)t						PostPluralMood;
+
+LEXICON PostPluralMood
+Desiderative;
+Jussive;
+IntransitiveVetitive;
+
+! Modal suffixes
+
+LEXICON Voluntative
+-1JUSS:-le		WordBoundary;
+-NEG:-vā		NegatedVoluntative;
+-NEG:-va		NegatedVoluntative;
+
+LEXICON NegatedVoluntative
+-1JUSS:-llī		WordBoundary;
+
+LEXICON Cohortative
+-i		FinalModalPlural;
+-o		FinalModalPlural;
+
+LEXICON Potential
+-POT:-ēva		OptFinalModalPlural;
+-POT:-eva		OptFinalModalPlural;
+
+LEXICON Optative
+-OPT-ž:-e-ž		WordBoundary;
+-OPT-ž:-ae-ž	WordBoundary;
+
+LEXICON Desiderative
+-DESID:-ānni	WordBoundary;
+-DESID:-anni	WordBoundary;
+
+LEXICON Jussive
+-3JUSS:-en		WordBoundary;
+-3JUSS:-e(n)	#;
+
+LEXICON Vetitive
+-NEG:-vā		Jussive;
+-NEG:-va		Jussive;
+
+LEXICON IntransitiveVetitive
+-INT-NEG:-ō-v(ā)	Jussive;
+
+LEXICON Purposive
+<%-PURP .x. %- A I>		PostPurposive;
+
+LEXICON PostPurposive
+SingularMarker;
+OptFinalModalElement;
+
+LEXICON FinalModalPlural
+-PL.A:-ž		WordBoundary;
+
+LEXICON Voice
+-MED:-u		OptSyntacticParticle;
+-MED:-ū		OptSyntacticParticle;
+-MED:-ūv	OptSyntacticParticle;
+
+LEXICON Tense
+Present;
+-PST:-ōž	NonPresent;
+-PST:-ož	NonPresent;
+-FUT:-ēd	NonPresent;
+-FUT:-ed	NonPresent;
+
+LEXICON Present
+@R.VI.ON@					Intransitivity;
+@D.VI.ON@@D.DER.ON@-TR:@D.VI.ON@@D.DER.ON@-i	MarkingValence;
+@D.VI.ON@@D.DER.ON@-TR:@D.VI.ON@@D.DER.ON@-ī	MarkingValence;
+@D.VI.ON@@R.DER.ON@			MarkingValence;
+@D.VI.ON@					NotMarkingValence;
+Negated;
+CommonPostTense;
+
+LEXICON NonPresent
+@R.VI.ON@-INT:@R.VI.ON@-t	Intransitivity;
+@D.VI.ON@					Person;
+Mood;
+Voice;
+-i 				NegatedNonPresentMarkingValence;
+-ī 				NegatedNonPresentMarkingValence;
+NegatedNonPresentNotMarkingValence;
+CommonPostTense;
+
+LEXICON CommonPostTense
+@D.VI.ON@		Antipassive;
+
+LEXICON NegatedNonPresentMarkingValence
+NegatedFirstPersonSingular;
+NegatedThirdPersonSingular;
+
+LEXICON NegatedNonPresentNotMarkingValence
+NegatedFirstPersonPlural;
+NegatedSecondPersonPlural;
+
+LEXICON Intransitivity
+-INT:-a			OptNominalization;
+-INT:-o			NonErgativeNegation;
+-INT:-ō			NonErgativeNegation;
+
+LEXICON Person
+NotMarkingValence;
+MarkingValence;
+
+LEXICON NotMarkingValence
+@P.SUBJ.1SG@	FirstPersonSingular;
+@P.SUBJ.1PL@	FirstPersonPlural;
+@P.SUBJ.2PL@	SecondPersonPlural;
+
+LEXICON FirstPersonSingular
+-1A.SG:-aw		PostFirstPersonSingular;
+-1A.SG:-āw		PostFirstPersonSingular;
+-1A.SG:-affu	Enclitic;
+
+LEXICON PostFirstPersonSingular
+#;
+Nominalization;
+
+LEXICON FirstPersonPlural
+-1A:-aw			NonSecondPersonPluralMarker;
+
+LEXICON SecondPersonPlural
+-2A.PL:-ašš+o	OptNominalization;				
+
+LEXICON MarkingValence
+@P.SUBJ.2SG@	SecondPersonSingular;
+@P.SUBJ.3SG@	ThirdPersonSingular;
+@P.SUBJ.3PL@	ThirdPersonPlural;
+
+LEXICON SecondPersonSingular
+-2A.SG:-ō		OptNominalization;
+-2A.SG:-o		OptNominalization;
+
+LEXICON ThirdPersonSingular
+-3A.SG:-ā		OptNominalization;
+-3A.SG:-a		OptNominalization;
+
+LEXICON ThirdPersonPlural
+-3A:-a			NonSecondPersonPluralMarker;
+
+LEXICON NonSecondPersonPluralMarker
+-PL:-ž			#;
+-PL:-ža			EncliticOrNominalization;
+
+LEXICON EncliticOrNominalization
+Enclitic;
+Nominalization;
+
+LEXICON Negated
+-TR:-i		NegatedEnding;
+
+LEXICON NegatedEnding
+@P.SUBJ.1SG@	NegatedFirstPersonSingular;
+@P.SUBJ.1PL@	NegatedFirstPersonPlural;
+@P.SUBJ.3SG@	NegatedThirdPersonSingular;
+@P.SUBJ.2PL@	NegatedSecondPersonPlural;
+
+LEXICON NegatedFirstPersonSingular
+-1A.SG.NEG:-uffu	OptNominalization;
+
+LEXICON NegatedFirstPersonPlural
+-1A.PL.NEG:-uffu	NonSecondPersonPluralMarker;
+
+LEXICON NegatedThirdPersonSingular
+-3A.SG:-a		ErgIndNegation;
+-3A.SG:-ā		ErgIndNegation;
+
+LEXICON NegatedSecondPersonPlural
+-2A.PL.NEG:-ošš+o	OptNominalization;
+
+LEXICON ErgIndNegation
+<%-NEG .x. %- m (m) A>	OptNominalization;
+
+LEXICON OptNominalization
+Nominalization;
+WordBoundary;
+
+LEXICON Nominalization
+-NMN:-šše		PostNominalization;
+-NMN:-šš(e)		VocalicCase;
+
+LEXICON PostNominalization
+Absolutive;
+ConsonantalCase;
+Relator;
+
+LEXICON Adverb
+anam	Adv; ! so
+anammi	Adv; ! so
+ašḫu	Adv; ! oben
+ḫenni	Adv; ! jetzt
+kuro	Adv; ! wieder
+šukko	Adv; ! einmal
+tiššan	Adv; ! sehr
+tūri	Adv; ! down
+tūrī+e	Adv; ! downward
+undo	Adv; ! jetzt
+īā		Adv; ! why
+
+LEXICON Adv
+.ADV:0	WordBoundary;
+
+LEXICON Conjunction
+adi		Conj; ! so
+adī		Conj; ! so
+ai		Conj; ! wenn, falls
+āi		Conj; ! wenn, falls
+alaže	Conj; ! oder
+inna	Conj; ! wenn, als
+ia		Conj;
+īa		Conj;
+ie		Conj;
+īe		Conj;
+inu		Conj; ! wie
+inū		Conj; ! wie
+mā		Conj; ! so
+panu	Conj; ! obgleich
+
+LEXICON Conj
+.CONJ:0		WordBoundary;
+
+LEXICON Numeral
+šuga		Num; ! ein
+šugi		Num; ! ein
+šukka		Num; ! ein
+šukki		Num; ! ein
+šin			Num; ! zwei
+šina		Num; ! zwei
+kiga		Num; ! drei
+kige		Num; ! drei
+tumni		Num; ! vier
+nari		Num; ! fünf
+naria		Num; ! fünf
+šeže		Num; ! sechs
+šinda		Num; ! sieben
+šindi		Num; ! sieben
+kira		Num; ! acht
+kiri		Num; ! acht
+tamra		Num; ! neun
+tamri		Num; ! neun
+eman		Num; ! zehn
+kig+eman	Num; ! dreizehn / dreizig
+kir+eman	Num; ! achtzehn / achtzig
+kir+man		Num; ! achtzehn / achtzig
+nubi		Num; ! zehntausend
+šin+zi		Num; ! zweite
+kiški		Num; ! dritte
+tumuš+ši	Num; ! vierte
+tumun+zi	Num; ! vierte
+nari+šše	Num; ! fünfte
+šende+šše	Num; ! siebte
+šindi+šše	Num; ! siebte
+eman+zi		Num; ! zehnte
+eman+ši		Num; ! zehnte
+kir+eman+zi	Num; ! achtzehnte / achtzigste
+kir+man+zi	Num; ! achtzehnte / achtzigste
+šin+arbu	Num; ! zweijährig
+kig+arbu	Num; ! dreijährig
+tumn+arbu	Num; ! vierjährig
+nari+arbu	Num; ! fünfjährig
+šind+arbu	Num; ! siebenjährig
+kir+arbu	Num; ! achtjährig
+šug+am+ġ(e)+a	Num; ! einmal
+šin+am+ġ(e)+a	Num; ! zweimal
+eman+am+ġ(e)+a	Num; ! zehnmal
+šin+ai			Num; ! zweimal
+šin+ad(i)+ae	Num; ! jede zwei
+šind+ai			Num; ! sechsmal
+
+LEXICON Num
+.NUM:0		WordBoundary;
+
+LEXICON Pronoun
+PersonalPronoun;
+DeicticPronoun;
+IndefiniteInterrogativePronoun;
+
+LEXICON PersonalPronoun
+1PRON.SG:išten		Absolutive;
+1PRON.SG:ište(n)	Absolutive;
+1PRON.SG:iž			LongErgative;
+1PRON.SG:šo			GenDatEqu2;
+1PRON.SG:šu			DirCom;
+1PRON.SG:šū			DirCom;	
+2PRON.SG:fe			AbsErgGenDatThemDir;
+2PRON.SG:fē			AbsErgGenDatThemDir;
+3PRON.SG:mānni		Absolutive;
+3PRON.SG:manni		Absolutive;
+3PRON.SG:mani		Absolutive;
+3PRON.SG:manu		ErgAblComEqu2;
+3PRON.SG:man		Essive;
+1PRON.PL:šatti		Absolutive;
+1PRON-PL:šatti-lla	Absolutive;
+1PRON.PL:šie		Ergative;
+1PRON-PL:ša-ž		GenDatThemDir;
+2PRON-PL:fe-lla		Absolutive;
+2PRON-PL:fe-ž		ThemErgGenDatEss;
+3PRON-PL:mane-lla	Absolutive;
+3PRON-PL:man-ž		ThemErgDatThemCom;
+3PRON-PL:man-z		ThemErgDatThemCom;
+
+LEXICON GenDatEqu2
+Genitive;
+Dative;
+Equative2;
+
+LEXICON DirCom
+Directive;
+Comitative;
+
+LEXICON AbsErgGenDatThemDir
+Absolutive;
+Ergative;
+Genitive;
+Dative;
+-EPNTH:-u	Directive;
+
+LEXICON ErgAblComEqu2
+Ergative;
+Ablative;
+Comitative;
+Equative2;
+
+LEXICON ThemErgGenDatEss
+ThematicErgative;
+Genitive;
+Dative;
+Essive;
+
+LEXICON GenDatThemDir
+Genitive;
+Dative;
+-EPNTH:-o	Directive;
+
+LEXICON ThemErgDatThemCom
+ThematicErgative;
+Dative;
+ThematicComitative;
+
+LEXICON DeicticPronoun
+anni	OptPlur; ! dieser
+annu	Ablative; ! dieser
+ani		Absolutive; ! dieser
+anu		VarErgDatAbl; ! dieser
+ane		DeicticPlural; ! dieser
+ane		VarDeicticPlural;! dieser
+andi	OptPlur; ! jener
+andu	GenDat; ! jener
+andū	DirectiveLocative; ! jener
+akki	OptPlur; ! dieser
+ākki	OptPlur; ! dieser
+akku	ErgAbl; ! dieser
+agi		Absolutive; ! jener
+agu		DatDir; ! jener
+
+LEXICON OptPlur
+Absolutive;
+DeicticPlural;
+
+LEXICON DeicticPlural
+-PL:-lla	Absolutive;
+
+LEXICON VarDeicticPlural
+.PL:+na		Absolutive;
+
+LEXICON VarErgDatAbl
+-ERG:-ēž	WordBoundary;
+Dative;
+Ablative;
+
+LEXICON GenDat
+Genitive;
+Dative;
+
+LEXICON ErgAbl
+Ergative;
+Ablative;
+
+LEXICON DatDir
+Dative;
+Directive;
+
+LEXICON IndefiniteInterrogativePronoun
+ave		AbsErg;
+abi		AbsErg;
+
+LEXICON AbsErg
+Absolutive;
+Ergative;
+
+LEXICON Noun
+aStem;
+āStem;
+eStem;
+ēStem;
+iStem;
+aiStem;
+AthematicNoun;
+ConsonantalNoun;
+
+LEXICON aStem
+ag		a; ! side
+ēl		a; ! Schwester
+men		a; ! Zwilling?; Geschwister?
+ner		a; ! Mutter
+šāl		a; ! Tochter
+šēn		a; ! Bruder
+tiš		a; ! Herz
+keli	a;
+pill	a; ! Kanal
+šaušk	a;
+šimig	a;
+pa+ili	a; ! builder
+tab+ili	a; ! Schmied
+idenn	a; ! builder
+
+LEXICON āStem
+ag		ā; ! side
+ež		ā; ! yonder
+
+LEXICON eStem
+āž		e; ! fat
+eg		e; ! inner
+ēž		e; ! Erde
+ov		e; ! foolish
+šī		e; ! Fluss
+ard		e; ! Stadt
+man		e;
+taš		e; ! Geschenk
+kiaš	e; ! Meer
+pill	e; ! canal
+ēpḫ		e; ! Ofen
+šimīg	e;
+att+ard	e; ! Vorfahr
+paššītḫ	e; ! Gesandte
+pašš+i+ġ	e;
+pill	e; ! canal
+pa+i+r	e; ! builder
+šialī	e; ! stacked
+ḫiar+o+ḫḫ	e; ! Gold
+
+LEXICON ēStem
+ēpḫ		ē; ! oven
+kar		ē; ! bird catcher
+man		ē; ! DN
+nešš	ē; ! donation
+taġ		ē; ! Mann
+tiv		ē; ! Wort
+ḫalz	ē; ! district
+kam		ē; ! (ein Tier)
+na+i+ġ	ē; ! meadow
+pill	ē; ! Kanal
+serr	ē; ! donkey
+tāl		ē; ! Holz
+tal		ē; ! Holz
+
+LEXICON iStem
+el		i; ! Fest
+ēn		i; ! Gott
+en		i; ! Gott
+id		i; ! Körper
+ol		i; ! another
+ōl		i; ! anderer
+ārd		i; ! city
+āšḫ		i; ! pelt
+ašt		i; ! Frau
+ērv		i; ! Hund
+ēvr		i; ! Herr
+fur		i; ! Blick
+ḫan		i; ! Kind
+kaz		i; ! Becher
+kāz		i; ! cup
+mad		i; ! wisdom
+mād		i; ! wisdom
+nāl		i; ! Rehbock
+paḫ		i; ! Kopf
+tār		i; ! Feuer
+tāġ		i; ! Mann
+šān		i;
+šīn		i; ! Auge
+šug		i; ! Dach
+šūg		i; ! Dach
+alal	i; ! Gewand
+ābr		i;
+ēl+g	i; ! decoration
+ōmīn	i; ! Land
+kāmm	i; ! (ein Tier)
+kebl	i; ! Jäger
+keld	i; ! keldi-Opfer
+kum+d	i; ! Turm
+šīrn	i; ! gloss?
+šō+n	i; ! hand
+šuḫn	i; ! Mauer
+tabl	i; ! Schmied
+tupp	i; ! Tafel
+atta+	i; ! Vater
+al+ipš+	i; ! brick
+attan	i; ! Vater
+ēn		i; ! Gott
+er+ān	i; ! tax
+evr+n	i; ! Sache
+īštan	i; ! inside
+ištan	i; ! inside
+išuḫn	i; ! Silber
+ōmmin	i; ! Land
+fūt+k	i; ! son
+ḫēlōv	i; ! glory
+ḫelōv	i; ! glory
+kabal	i; ! copper
+kābal	i; ! copper
+mūž+un+	i;
+nau+n	i; ! pasture
+niġār	i; ! Mitgift
+purul	i; ! Tempel
+šaval	i; ! Jahr
+šažar	i; ! saw
+tōrov	i; ! Feind
+muž+un+	i;
+muž+ūn+	i;
+ḫavorn	i; ! Himmel
+ḫāvorn	i; ! Himmel
+ḫazian	i; ! mayor;
+ḫāž+ar	i; ! Öl
+kebē+l	i; ! Jäger
+kēbe+l	i; ! Jäger
+magann	i; ! Geschenk
+magānn	i; ! Geschenk
+paba+n	i; ! Berg
+pabā+n	i; ! Berg
+pāba+n	i; ! Berg
+ag+ūr+n	i; ! engraving
+eā+šarr	i;
+ḫēr+ār+	i; ! upper arm
+ḫer+ār+	i; ! upper arm
+paba+nn	i; ! Berg
+pāba+nn	i; ! Berg
+tab+i+r	i; ! smith
+tīp+šār	i; ! matter
+tip+šār	i; ! matter
+taloġl	i; ! domestico
+tapšāġ	i; ! cupbearer
+fand+a+n	i; ! right
+kir+ar+n	i;
+šid+ar+n	i; ! Fluch
+šid+ār+n	i; ! Fluch
+taržuvā+n	i; ! human
+fūt+k		i; ! son
+ḫalz+ō+ġ+l	i; ! Bürgermeister
+tab+rē+nn	i; ! Schmied
+tupšarr		i; ! scribe
+šukk+a+n	i; ! einzeln
+faġr+o+n	i; ! gut
+
+LEXICON aiStem
+all		ai; ! Herrin
+ušt		ai; ! Held
+
+LEXICON AthematicNoun
+amānu			AthemNoun; ! DN
+ōlvī			AthemNoun; ! other
+šēd+o+ilia		AthemNoun; ! flattened
+šuɛ				AthemNoun;
+
+LEXICON ConsonantalNoun
+teššōb			CNoun; ! DN
+tēššob			CNoun; ! DN
+
+LEXICON a
+a	NounThemVowel;
+(a)	NounStem;
+
+LEXICON ā
+ā	NounThemVowel;
+(ā)	NounStem;
+
+LEXICON e
+e	NounThemVowel;
+(e)	NounStem;
+
+LEXICON ē
+ē	NounThemVowel;
+(ē)	NounStem;
+
+LEXICON i
+i	NounThemVowel;
+(i)	NounStem;
+
+LEXICON ai
+ai		NounThemVowel;
+a(i)	NounStem;
+
+LEXICON AthemNoun
+NounThemVowel;
+NounStem;
+
+LEXICON CNoun
+Relator;
+ConsonantalPossessive;
+VocalicPossessive;
+Plural;
+Absolutive;
+LongErgative;
+ConsonantalOblique;
+VocalicCase;
+
+LEXICON NounThemVowel
+Relator;
+ConsonantalPossessive;
+Plural;
+Absolutive;
+ConsonantalCase;
+
+LEXICON NounStem
+VocalicPossessive;
+VocalicCase;
+
+LEXICON Relator
+-RELAT.SG:-nē			ConsonantalCase;
+-RELAT.SG:-ne			ConsonantalCase;
+-RELAT.SG:-n(e)			VocalicCase;
+-RELAT.PL:-na			Absolutive;
+-RELAT.PL:-n(a)			LongPlural;
+
+LEXICON VocalicPossessive
+-1POSS.SG:-iffe		Absolutive;
+-1POSS.SG:-iffe		LongAblativeInstrumental;
+-1POSS.SG:-iff(e)	VocalicCase;
+<"-1POSS" ".SG" .x. "-" I {ff} U>	ConsonantalCase;
+-3POSS.SG:-ī		Case;
+-3POSS.SG:-i		Case;
+-1POSS:-iff(e)		Plural;
+-3POSS:-i			Plural;
+
+LEXICON ConsonantalPossessive
+-2POSS.SG:-b		Oblique;
+-2POSS.SG:-v		ThematicErgative;
+-2POSS.PL:-šši		Absolutive;
+-2POSS.PL:-šu		Case;
+-2POSS.PL:-ššu		Case;
+
+LEXICON ConsonantalCase
+Ergative;
+ConsonantalOblique;
+
+LEXICON ConsonantalOblique
+Genitive;
+Dative;
+Directive;
+Ablative;
+Comitative;
+Equative2;
+Associative;
+AblativeInstrumental;
+
+LEXICON VocalicCase
+Essive;
+Instrumental;
+Equative1;
+DirectiveLocative;
+
+LEXICON Oblique
+ConsonantalOblique;
+VocalicCase;
+
+LEXICON Plural
+-PL:-až		PluralCase;
+
+LEXICON LongPlural
+-PL:-āž		PluralCase;
+Plural;
+
+LEXICON PluralCase
+Absolutive;
+ThematicErgative;
+Genitive;
+Dative;
+Directive;
+Ablative;
+ThematicComitative;
+Essive;
+ThematicEquative2;
+ThematicLongAblativeInstrumental;
+
+LEXICON ThematicErgative
+-EPNTH:-o	Ergative;
+
+LEXICON ThematicComitative
+-EPNTH:-o	Comitative;
+
+LEXICON ThematicEquative2
+-EPNTH:-o	Equative2;
+
+LEXICON ThematicLongAblativeInstrumental
+-EPNTH:-a	LongAblativeInstrumental;
+
+LEXICON Case
+Absolutive;
+NonAbsolutiveCase;
+
+LEXICON NonAbsolutiveCase
+ConsonantalCase;
+VocalicCase;
+
+! Case suffixes
+
+LEXICON Absolutive
+.ABS:0		WordBoundary;
+
+LEXICON Ergative
+-ERG:-ž		WordBoundary;
+
+LEXICON LongErgative
+-ERG:-až	WordBoundary;
+
+LEXICON Genitive
+-GEN:-vē	GenCont;
+-GEN:-ve	GenCont;
+
+LEXICON Dative
+-DAT:-vā	WordBoundary;
+-DAT:-va	WordBoundary;
+
+LEXICON Directive
+-DIR:-da	WordBoundary;
+
+LEXICON Ablative
+-ABL:-dan	WordBoundary;
+
+LEXICON Comitative
+-COM:-ra	WordBoundary;
+
+LEXICON Essive
+-ESS:-ā		WordBoundary;
+-ESS:-a		WordBoundary;
+
+LEXICON Instrumental
+-INS:-ae	WordBoundary;
+-INS:-āi	WordBoundary;
+
+LEXICON Equative1
+-EQU1:-ož		WordBoundary;
+
+LEXICON Equative2
+-EQU2:-nna		WordBoundary;
+
+LEXICON Associative
+-ASSOC:-nni		WordBoundary;
+
+LEXICON AblativeInstrumental
+LongAblativeInstrumental;
+ShortAblativeInstrumental;
+
+LEXICON LongAblativeInstrumental
+-ABL/INS:-ne	WordBoundary;
+
+LEXICON ShortAblativeInstrumental
+-ABL/INS:-n		WordBoundary;
+
+LEXICON DirectiveLocative
+-DIR/LOC:-e		WordBoundary;
+
+LEXICON GenCont
+WordBoundary;
+@D.STACKING.ON@@P.STACKING.ON@	Relator;
+
+LEXICON WordBoundary
+#;
+Enclitic;
+
+! Enclitics
+
+LEXICON Enclitic
+EncliticPersonalPronoun;
+SyntacticParticle;
+
+LEXICON EncliticPersonalPronoun
+LongEncliticPersonalPronoun;
+ShortEncliticPersonalPronoun;
+
+LEXICON LongEncliticPersonalPronoun
+! We disallow (D) the coincidence of pronoun and verb subject agreement person and number features. 
+@D.SUBJ.1SG@=1SG.ABS:@D.SUBJ.1SG@=tta	OptSyntacticParticle;
+@D.SUBJ.1SG@=1SG.ABS:@D.SUBJ.1SG@=ttā	OptSyntacticParticle;
+@D.SUBJ.2SG@=2SG.ABS:@D.SUBJ.2SG@=mma	OptSyntacticParticle;
+@D.SUBJ.2SG@=2SG.ABS:@D.SUBJ.2SG@=mmā	OptSyntacticParticle;
+@D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=nna	OptSyntacticParticle;
+@D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=nnā	OptSyntacticParticle;
+@D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=ma	nin;
+@D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=mē	nin;
+@D.SUBJ.1PL@=1PL.ABS:@D.SUBJ.1PL@=dilla	OptSyntacticParticle;
+@D.SUBJ.2PL@=2PL.ABS:@D.SUBJ.2PL@=ffa	OptSyntacticParticle;
+@D.SUBJ.2PL@=2PL.ABS:@D.SUBJ.2PL@=ffā	OptSyntacticParticle;
+@D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=lla	OptSyntacticParticle;
+@D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=llā	OptSyntacticParticle;
+@D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=lle	OptSyntacticParticle;
+@D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=llē	OptSyntacticParticle;
+
+LEXICON ShortEncliticPersonalPronoun
+! We disallow (D) the coincidence of pronoun and verb subject agreement person and number features.
+@D.SUBJ.1SG@=1SG.ABS:@D.SUBJ.1SG@=d		OptSyntacticParticle;
+@D.SUBJ.2SG@=2SG.ABS:@D.SUBJ.2SG@=m		OptSyntacticParticle;
+@D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=n		OptSyntacticParticle;
+@D.SUBJ.1PL@=1PL.ABS:@D.SUBJ.1PL@=dil	OptSyntacticParticle;
+!@D.SUBJ.2PL@=2PL.ABS:@D.SUBJ.2PL@=v		OptSyntacticParticle;
+@D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=l		OptSyntacticParticle;
+
+LEXICON OptSyntacticParticle
+#;
+SyntacticParticle;
+
+LEXICON SyntacticParticle
+=CON:=an		#;
+=CON:=ma		#;
+=CON:=mān		#;
+=EMPH:=man		#;
+=PART:=mmaman	#;
+nin;
+
+LEXICON nin
+=PART:=nīn		#;

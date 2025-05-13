@@ -1,0 +1,29 @@
+source ../CharacterClasses/CharacterClasses.foma
+define SingleCoronalResonant P (B) [r|l|n] - [r (B) r|l (B) l|n (B) n];
+define RelatorOrModal [{nē}|{ne}|{n(e)}] "-" | [{na}|{n(a)}|l|{le}] ["-"|.#.];
+define Derivational "+" [{ġe}|{ni}|{ži}];
+define Elision [a|e|i] -> "(" ... ")" || SingleCoronalResonant (B) _ "-" RelatorOrModal | Derivational;
+define EmbrV "(" [a|e|i] ")";
+define EmbrR "(" [l|n] ">" ")";
+define lnAssimilation [l|n] -> {(} ... {>)r} || r (Boundary) (EmbrV) "-" _ ,,
+						n -> {(} ... {>)l} || l (Boundary) (EmbrV) "-" _ ;
+define Anaptyxis [..] -> ɑ || C _ (B) n EmbrV "-" n | l EmbrV "-" EmbrR l | r EmbrV "-" EmbrR r;
+define DerivAnaptyxis [..] -> ɑ || V C _ C (EmbrV) Derivational;
+define RegrVowelAssim [ɑ|ɛ|ɪ|ɔ] -> a || _ "=" [[{tt}|{nn}|{dill}|{ll}] A|{d}|{n}|{dil}|{l}];
+define Specification ɛ -> e, ɪ -> i, ɔ -> o || _ ;
+define VowelHarmony	ɑ -> a || A [C|"-"]* _ ,, ɑ -> e || E [C|"-"]* _ ,,
+					ɑ -> i || I [C|"-"]* _ ,, ɑ -> O || O [C|"-"]* _ ,,
+					ɑ -> u || U [C|"-"]* _ ;
+define vDeletion v -> "(" ... ")" || [ž|z] "-" _ ;
+define vAssimilation v -> w || U "-" _ ;
+define ErgativeSuffixDeletion ("-") ž @-> "(" ... ")" || _ "=" [[{tt}|{mm}|{dill}|{ll}] A|{d}|{m}|{dil}|{l}];
+define CompensatoryLengthening a -> ā, e -> ē, i-> ī, o -> ō, u -> ū || _ "(" ("-") ž ")";
+define Epenthesis [..] -> {+i} || {-en} | {-dan} _ "=" [[{tt}|{mm}|{dill}|{ff}|{ll}] A|{d}|{m}|{dil}|{v}|{l}];
+define nTriple n -> "(" ... ")" || _ B {nn};
+define CliticContraction {a=a} -> {(a)=ā} || _ n;
+define PartialDevoicing d -> t, ž -> š || Obstruent ("-"|"=") _ , _ ("-"|"=") Obstruent;
+define LexicalMorphonology Elision .o. lnAssimilation .o. Anaptyxis .o.
+	DerivAnaptyxis .o. RegrVowelAssim .o. Specification .o. VowelHarmony .o.
+	vDeletion .o. vAssimilation .o.
+	ErgativeSuffixDeletion .o. CompensatoryLengthening .o. Epenthesis .o.
+	nTriple .o. CliticContraction .o. PartialDevoicing;
