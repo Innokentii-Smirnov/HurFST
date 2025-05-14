@@ -21,10 +21,13 @@ else
 	{
 		case 'analysis':
 			$transducer = $morphology;
+			break;
 		case 'segmentation':
 			$transducer = $segmentation;
+			break;
 		case 'extendedSegmentation':
 			$transducer = $extSegm;
+			break;
 	}
 	$result = $transducer->analyze($word);
 	echo $result;
