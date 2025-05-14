@@ -1,11 +1,6 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-include('FomaInterface.php');
-$morphology = new FomaTransducer('HurFST/Morphology/Morphology.foma');
-$segmentation = new FomaTransducer('HurFST/Segmentation/Segmentation.foma');
-$extSegm = new FomaTransducer(
-	'HurFST/ExtendedSegmentation/ExtendedSegmentation.foma'
-);
+include_once('Transducers.php');
 if (!array_key_exists('fst', $_GET))
 {
 	echo 'No FST specified.';
