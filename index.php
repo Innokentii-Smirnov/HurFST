@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 include('FomaInterface.php');
 $morphology = new FomaTransducer('HurFST/Morphology/Morphology.foma');
 $segmentation = new FomaTransducer('HurFST/Segmentation/Segmentation.foma');
@@ -16,7 +17,7 @@ else if (!array_key_exists('word', $_GET))
 else
 {
 	$transducerName = $_GET['fst'];
-	$word = $_GET['word'];
+	$word = urldecode($_GET['word']);
 	switch ($transducerName)
 	{
 		case 'analysis':
