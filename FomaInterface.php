@@ -1,14 +1,18 @@
 <?php
+include('Process.php');
 class FomaTransducer
 {
 	private string $binaryPath;
-	function __construct($transducerPath, $compile=true, $verbose=false)
+	private string $sep;
+	private Process $flookupProcess;
+	function __construct($transducerPath, $compile=true, $verbose=false, $forGeneration=false, $sep=';')
 	{
 		$directory = dirname($transducerPath);
 		$name = basename($transducerPath, '.foma');
 		$this->binaryPath = realpath($directory).DIRECTORY_SEPARATOR.$name.'.bin';
+		$this->sep = $sep;
 		$oldDir = getcwd();
-		if ($compile) {
+		if ($compile && !file_exists($this->binaryPath)) {
 			chdir($directory);
 			$result = `foma -e "source $name.foma" -e "push $name" -e "save stack $name.bin" -e "exit"`;
 			if ($verbose) {
@@ -16,16 +20,15 @@ class FomaTransducer
 			}
 			chdir($oldDir);
 		}
+		$option = $forGeneration ? '-i' : '';
+		$args = "-b {$option} -w \"{$sep}\" -x {$this->binaryPath}";
+		$this->flookupProcess = new Process('flookup', $args, $sep);
 	}
-	function analyze($word)
+	function apply($word)
 	{
-		$analysis = `echo "$word" | flookup -w "" -x $this->binaryPath`;
-		return $analysis;
-	}
-	function generate($analysis)
-	{
-		$word = `echo "$analysis" | flookup -i -w "" -x $this->binaryPath`;
-		return $word;
+		$this->flookupProcess->write($word);
+		$result = $this->flookupProcess->read();
+		return $result;
 	}
 }
 ?>

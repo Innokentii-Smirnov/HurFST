@@ -25,7 +25,7 @@ else
 			$transducer = $extSegm;
 			break;
 	}
-	$result = $transducer->analyze($word);
+	$result = $transducer->apply($word);
 	echo $result;
 }
 ?>
