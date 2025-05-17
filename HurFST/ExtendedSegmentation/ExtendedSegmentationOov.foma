@@ -1,0 +1,4 @@
+load stack ../Segmentation/SegmentationOov.bin
+define BasicSegmentation;
+define GraphicVariance i (->) e, e (->) i, o (->) u, v (->) b, f (->) p || _ ;
+define ExtendedSegmentationOov BasicSegmentation .o. GraphicVariance;

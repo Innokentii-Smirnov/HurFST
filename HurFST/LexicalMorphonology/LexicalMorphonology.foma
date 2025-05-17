@@ -22,8 +22,10 @@ define Epenthesis [..] -> {+i} || {-en} | {-dan} _ "=" [[{tt}|{mm}|{dill}|{ff}|{
 define nTriple n -> "(" ... ")" || _ B {nn};
 define CliticContraction {a=a} -> {(a)=ā} || _ n;
 define PartialDevoicing d -> t, ž -> š || Obstruent ("-"|"=") _ , _ ("-"|"=") Obstruent;
+define Voicing p -> b, t -> d, k -> g, f -> v, š -> ž, ḫ -> ġ || V (Boundary) _ (Boundary) V ,
+														_ (Boundary) R , R (Boundary)_ , _ .#.;
 define LexicalMorphonology Elision .o. lnAssimilation .o. Anaptyxis .o.
 	DerivAnaptyxis .o. RegrVowelAssim .o. Specification .o. VowelHarmony .o.
 	vDeletion .o. vAssimilation .o.
 	ErgativeSuffixDeletion .o. CompensatoryLengthening .o. Epenthesis .o.
-	nTriple .o. CliticContraction .o. PartialDevoicing;
+	nTriple .o. CliticContraction .o. PartialDevoicing .o. Voicing;

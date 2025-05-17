@@ -1,0 +1,8 @@
+read lexc ../Main/HurrianOov.lexc
+define Lexicon;
+source ../LexicalMorphonology/LexicalMorphonology.foma
+define BracketRemoval 0 <- "(" | ")" || _ ;
+show flag-is-epsilon
+set flag-is-epsilon ON
+show flag-is-epsilon
+define MorphologyOov BracketRemoval .o. Lexicon .o. LexicalMorphonology;
