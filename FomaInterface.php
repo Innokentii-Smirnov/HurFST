@@ -2,7 +2,7 @@
 class FomaTransducer
 {
 	private string $binaryPath;
-	function __construct($transducerPath, $compile=true, $verbose=false)
+	function __construct($transducerPath, $compile=false, $verbose=false)
 	{
 		$directory = dirname($transducerPath);
 		$name = basename($transducerPath, '.foma');
