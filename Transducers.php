@@ -5,7 +5,7 @@ function findBoundary($word)
 	for ($i = 0; $i < strlen($word); $i++)
 	{
 		$char = $word[$i];
-		if ($char === '-' || $char === '=' || $char === '')
+		if ($char === '-' || $char === '=' || $char === '.')
 		{
 			return $i;
 		}
