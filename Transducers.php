@@ -14,11 +14,13 @@ function findBoundary($word)
 }
 class TransducerSystem
 {
+	private string $postfix;
 	private FomaTransducer $morphology;
 	private FomaTransducer $segmentation;
 	private FomaTransducer $extSegm;
 	function __construct($postfix='')
 	{
+		$this->postfix = $postfix;
 		$this->morphology = new FomaTransducer(
 			'HurFST/Morphology/Morphology'.$postfix.'.foma'
 		);
@@ -55,7 +57,7 @@ class TransducerSystem
 				{
 					$tag = '';
 				}
-				$answer = ' @ '.$segmentation.' @ '.$tag.' @  @  @ ';
+				$answer = $segmentation.' @  @ '.$tag.' @ '.$this->postfix.' @ ';
 			}
 			$answers[] = $answer;
 		}

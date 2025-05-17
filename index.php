@@ -12,9 +12,13 @@ else
 {
 	$word = urldecode($_GET['word']);
 	$result = $transducerSystem->apply($word);
-	if (substr($result[0], 0, 7) === ' @ +? @')
+	if (substr($result[0], 0, 2) === '+?')
 	{
 		$result = $oovTransducerSystem->apply($word);
+		if (substr($result[0], 0, 2) === '+?')
+		{
+			$result = Array();
+		}
 	}
 	echo implode("\n", $result);
 }

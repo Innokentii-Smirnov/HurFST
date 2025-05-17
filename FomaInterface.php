@@ -27,12 +27,12 @@ class FomaTransducer
 				$this->binaryPath, $word
 			));
 		}
-		return explode("\n", rtrim($analysis));
+		return array_unique(explode("\n", rtrim($analysis)));
 	}
 	function generate($analysis)
 	{
 		$word = `echo "$analysis" | flookup -i -w "" -x $this->binaryPath`;
-		return explode("\n", rtrim($word));
+		return array_unique(explode("\n", rtrim($word)));
 	}
 }
 ?>
