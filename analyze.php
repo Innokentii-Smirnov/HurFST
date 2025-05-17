@@ -25,6 +25,10 @@ else
 			$result = Array();
 		}
 	}
+	for ($i=0; $i < count($result); $i++)
+	{
+		$result[$i] = getTag($result[$i]);
+	}
 	echo implode("\n", $result);
 }
 ?>
