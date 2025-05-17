@@ -20,12 +20,19 @@ class FomaTransducer
 	function analyze($word)
 	{
 		$analysis = `echo "$word" | flookup -w "" -x $this->binaryPath`;
-		return $analysis;
+		if (is_null($analysis))
+		{
+			throw new Exception(sprintf(
+				'Transducer %s returned null on word %s.',
+				$this->binaryPath, $word
+			));
+		}
+		return explode("\n", rtrim($analysis));
 	}
 	function generate($analysis)
 	{
 		$word = `echo "$analysis" | flookup -i -w "" -x $this->binaryPath`;
-		return $word;
+		return explode("\n", rtrim($word));
 	}
 }
 ?>
