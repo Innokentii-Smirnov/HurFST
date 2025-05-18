@@ -1,4 +1,4 @@
-Multichar_Symbols .NUM -INF -SG -NMN -RES -STAT .NEG -ANTIP -PAT -CVB -PTCP 1PRON 2PRON 3PRON .PASS -IMP -MOD .ACT -POT -OPT -DESID -1JUSS -3JUSS -PURP .A -MED .PFV -NEG 1SG 2SG 3SG 1PL 2PL 3PL .SG .PL -PL -RELAT -1POSS -2POSS -3POSS .ABS .ERG -ERG -GEN -DAT -DIR -ABL -COM -ESS -INS -EQU1 -EQU2 -ASSOC -ABL/INS -DIR/LOC -EPNTH =1SG =2SG =3SG =1PL =2PL =3PL =CON =EMPH =PART @P.STACKING.ON@ @D.STACKING.ON@ .PRS -PST -FUT -TR -INT -1A -2A -3A @P.VI.ON@ @R.VI.ON@ @D.VI.ON@ @P.DER.ON@ @R.DER.ON@ @D.DER.ON@ @P.SUBJ.1SG@ @P.SUBJ.2SG@ @P.SUBJ.3SG@ @P.SUBJ.1PL@ @P.SUBJ.2PL@ @P.SUBJ.3PL@ @D.SUBJ.1SG@ @D.SUBJ.2SG@ @D.SUBJ.3SG@ @D.SUBJ.1PL@ @D.SUBJ.2PL@ @D.SUBJ.3PL@ @P.NUM.PL@ @R.NUM.PL@ @D.NUM.PL@ ,Noun ,Verb ,Adv ,Conj ,Pron ,Num
+Multichar_Symbols .NUM -INF -SG -NMN -RES -STAT .NEG -ANTIP -PAT -CVB -PTCP 1PRON 2PRON 3PRON .PASS -IMP -MOD .ACT -POT -OPT -DESID -1JUSS -3JUSS -PURP .A -MED .PFV -NEG 1SG 2SG 3SG 1PL 2PL 3PL .SG .PL -PL -RELAT -1POSS -2POSS -3POSS .ABS .ERG -ERG -GEN -DAT -DIR -ABL -COM -ESS -INS -EQU1 -EQU2 -ASSOC -ABL/INS -DIR/LOC -EPNTH =1SG =2SG =3SG =1PL =2PL =3PL =CON =EMPH =PART @P.STACKING.ON@ @D.STACKING.ON@ .PRS -PST -FUT -TR -INT -1A -2A -3A @P.VI.ON@ @R.VI.ON@ @D.VI.ON@ @P.DER.ON@ @R.DER.ON@ @D.DER.ON@ @P.SUBJ.1SG@ @P.SUBJ.2SG@ @P.SUBJ.3SG@ @P.SUBJ.1PL@ @P.SUBJ.2PL@ @P.SUBJ.3PL@ @D.SUBJ.1SG@ @D.SUBJ.2SG@ @D.SUBJ.3SG@ @D.SUBJ.1PL@ @D.SUBJ.2PL@ @D.SUBJ.3PL@ @P.NUM.PL@ @R.NUM.PL@ @D.NUM.PL@ ,Noun ,Verb ,Adv ,Conj ,Pron ,Num -CAUS -ITER -INGR -FACT -RECP
 
 Definitions
 	A = a|ā;
@@ -211,23 +211,23 @@ LEXICON VerbalDerivation
 -aḫḫ	InheritedValence;
 -al		InheritedValence;
 -am		InheritedValence;
--an		vt;
--ān		vt;
--ann	vt;
--ar		InheritedValence;
--ār		InheritedValence;
+-CAUS:-an		vt;
+-CAUS:-ān		vt;
+-CAUS:-ann		vt;
+-ITER:-ar		InheritedValence;
+-ITER:-ār		InheritedValence;
 -āz		InheritedValence;
 -až		InheritedValence;
 -āž		InheritedValence;
 -ad		InheritedValence;
 !-il	InheritedValence;
--ill	InheritedValence;
+-INGR:-ill		InheritedValence;
 -iž		InheritedValence;
 !-l		InheritedValence;
 !-d		InheritedValence;
--oġ		InheritedValence;
--ōġ		InheritedValence;
--ūġ		InheritedValence;
+-FACT:-oġ		InheritedValence;
+-FACT:-ōġ		InheritedValence;
+-FACT:-ūġ		InheritedValence;
 -iġ		InheritedValence;
 -ōl		InheritedValence;
 -ol		InheritedValence;
@@ -237,8 +237,8 @@ LEXICON VerbalDerivation
 -ur		InheritedValence;
 !-ōž	InheritedValence;
 !-ud	InheritedValence;
--ugar	InheritedValence;
--ugār	InheritedValence;
+-RECP:-ugar		InheritedValence;
+-RECP:-ugār		InheritedValence;
 -upp	InheritedValence;
 -RES:-ɑšt	InheritedValence;
 -RES:-ōšt	InheritedValence;
