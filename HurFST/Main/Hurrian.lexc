@@ -918,6 +918,9 @@ NounThemVowel;
 NounStem;
 
 LEXICON CNoun
+,Noun:0		PostCNoun;
+
+LEXICON PostCNoun
 Relator;
 ConsonantalPossessive;
 VocalicPossessive;
