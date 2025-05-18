@@ -46,11 +46,15 @@ function parseAnalysis($analysis)
 		$tag = '';
 	}
 	$exploded = explode(',', $lex);
-	if (count($exploded) !== 2)
+	if (count($exploded) === 2)
 	{
-		throw new Error('Lexical entry had incorrect format: '.$lex);
+		list($stem, $pos) = $exploded;
 	}
-	list($stem, $pos) = $exploded;
+	else
+	{
+		$stem = $lex;
+		$pos = 'other';
+	}
 	return array($stem, $pos, $tag);
 }
 ?>
