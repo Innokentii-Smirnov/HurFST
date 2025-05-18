@@ -21,31 +21,42 @@ LEXICON Verb
 <C V C C> v;
 
 LEXICON vs
-,Verb-STAT:-ɛ		WordBoundary;
-,Verb-STAT:-ɪ		WordBoundary;
-,Verb-STAT:-o		NonErgativeNegation;
-,Verb-NEG:-obur		WordBoundary;
-,Verb-NEG:-ōbur		WordBoundary;
-,Verb:0				CommonVerb;
+,Verb:0 		PostVs;
+
+LEXICON PostVs
+-STAT:-ɛ		WordBoundary;
+-STAT:-ɪ		WordBoundary;
+-STAT:-o		NonErgativeNegation;
+-NEG:-obur		WordBoundary;
+-NEG:-ōbur		WordBoundary;
+CommonVerb;
 
 LEXICON v
 vi;
 vt;
 
 LEXICON vi
-,Verb@P.VI.ON@:@P.VI.ON@	Tense;
-,Verb-IMP:-a				WordBoundary;
-,Verb:0						CommonVerb;
-,Verb-INT-b:-a-b			WordBoundary;
-,Verb@P.VI.ON@@P.DER.ON@:@P.VI.ON@@P.DER.ON@	VerbalDerivation;
+@D.DER.ON@,Verb:@D.DER.ON@0		PostVi;
+@R.DER.ON@						PostVi;
+
+LEXICON PostVi
+@P.VI.ON@			Tense;
+-IMP:-a				WordBoundary;
+CommonVerb;
+-INT-b:-a-b			WordBoundary;
+@P.VI.ON@@P.DER.ON@	VerbalDerivation;
 
 LEXICON vt
-,Verb:0				Tense;
-,Verb-IMP:-e		OptFinalModalPlural;
-,Verb-IMP:-i		OptFinalModalElement;
-,Verb-IMP.PASS:-o	OptFinalModalElement;
-,Verb:0				CommonVerb;
-,Verb@P.DER.ON@:@P.DER.ON@		VerbalDerivation;
+@D.DER.ON@,Verb:@D.DER.ON@0		PostVt;
+@R.DER.ON@						PostVt;
+
+LEXICON PostVt
+Tense;
+-IMP:-e			OptFinalModalPlural;
+-IMP:-i			OptFinalModalElement;
+-IMP.PASS:-o	OptFinalModalElement;
+CommonVerb;
+@P.DER.ON@		VerbalDerivation;
 
 LEXICON Antipassive
 -ANTIP:-i		PostAtipassive;
