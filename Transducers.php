@@ -37,7 +37,7 @@ class TransducerSystem
 				foreach ($analyses as $analysis)
 				{
 					list($stem, $pos, $tag) = parseAnalysis($analysis);
-					$answer = $segmentation.' @  @ '.$tag.' @ '.$pos.' @ ';
+					$answer = $segmentation.' @  @ '.$tag.' @ '.strtolower($pos).' @ ';
 					$answers[] = $answer;
 				}
 			}
