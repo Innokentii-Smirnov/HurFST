@@ -1,4 +1,4 @@
-Multichar_Symbols .NUM -INF -SG -NMN -RES -STAT .NEG -ANTIP -PAT -CVB -PTCP 1PRON 2PRON 3PRON .PASS -IMP -MOD .ACT -POT -OPT -DESID -1JUSS -3JUSS -PURP .A -MED .PFV -NEG 1SG 2SG 3SG 1PL 2PL 3PL .ADV .CONJ .SG .PL -PL -RELAT -1POSS -2POSS -3POSS .ABS .ERG -ERG -GEN -DAT -DIR -ABL -COM -ESS -INS -EQU1 -EQU2 -ASSOC -ABL/INS -DIR/LOC -EPNTH =1SG =2SG =3SG =1PL =2PL =3PL =CON =EMPH =PART @P.STACKING.ON@ @D.STACKING.ON@ .PRS -PST -FUT -TR -INT -1A -2A -3A @P.VI.ON@ @R.VI.ON@ @D.VI.ON@ @P.DER.ON@ @R.DER.ON@ @D.DER.ON@ @P.SUBJ.1SG@ @P.SUBJ.2SG@ @P.SUBJ.3SG@ @P.SUBJ.1PL@ @P.SUBJ.2PL@ @P.SUBJ.3PL@ @D.SUBJ.1SG@ @D.SUBJ.2SG@ @D.SUBJ.3SG@ @D.SUBJ.1PL@ @D.SUBJ.2PL@ @D.SUBJ.3PL@ @P.NUM.PL@ @R.NUM.PL@ @D.NUM.PL@
+Multichar_Symbols .NUM -INF -SG -NMN -RES -STAT .NEG -ANTIP -PAT -CVB -PTCP 1PRON 2PRON 3PRON .PASS -IMP -MOD .ACT -POT -OPT -DESID -1JUSS -3JUSS -PURP .A -MED .PFV -NEG 1SG 2SG 3SG 1PL 2PL 3PL .SG .PL -PL -RELAT -1POSS -2POSS -3POSS .ABS .ERG -ERG -GEN -DAT -DIR -ABL -COM -ESS -INS -EQU1 -EQU2 -ASSOC -ABL/INS -DIR/LOC -EPNTH =1SG =2SG =3SG =1PL =2PL =3PL =CON =EMPH =PART @P.STACKING.ON@ @D.STACKING.ON@ .PRS -PST -FUT -TR -INT -1A -2A -3A @P.VI.ON@ @R.VI.ON@ @D.VI.ON@ @P.DER.ON@ @R.DER.ON@ @D.DER.ON@ @P.SUBJ.1SG@ @P.SUBJ.2SG@ @P.SUBJ.3SG@ @P.SUBJ.1PL@ @P.SUBJ.2PL@ @P.SUBJ.3PL@ @D.SUBJ.1SG@ @D.SUBJ.2SG@ @D.SUBJ.3SG@ @D.SUBJ.1PL@ @D.SUBJ.2PL@ @D.SUBJ.3PL@ @P.NUM.PL@ @R.NUM.PL@ @D.NUM.PL@ ,Noun ,Verb ,Adv ,Conj ,Pron ,Num
 
 Definitions
 	A = a|ā;
@@ -142,31 +142,31 @@ tupp	vs; ! vorhanden sein
 ur		vs; ! existieren
 
 LEXICON vs
--STAT:-ɛ		WordBoundary;
--STAT:-ɪ		WordBoundary;
--STAT:-o		NonErgativeNegation;
--NEG:-obur		WordBoundary;
--NEG:-ōbur		WordBoundary;
-CommonVerb;
+,Verb-STAT:-ɛ		WordBoundary;
+,Verb-STAT:-ɪ		WordBoundary;
+,Verb-STAT:-o		NonErgativeNegation;
+,Verb-NEG:-obur		WordBoundary;
+,Verb-NEG:-ōbur		WordBoundary;
+,Verb:0				CommonVerb;
 
 LEXICON v
 vi;
 vt;
 
 LEXICON vi
-@P.VI.ON@	Tense;
--IMP:-a		WordBoundary;
-CommonVerb;
--INT-b:-a-b		WordBoundary;
-@P.VI.ON@@P.DER.ON@		VerbalDerivation;
+,Verb@P.VI.ON@:@P.VI.ON@	Tense;
+,Verb-IMP:-a				WordBoundary;
+,Verb:0						CommonVerb;
+,Verb-INT-b:-a-b			WordBoundary;
+,Verb@P.VI.ON@@P.DER.ON@:@P.VI.ON@@P.DER.ON@	VerbalDerivation;
 
 LEXICON vt
-Tense;
--IMP:-e			OptFinalModalPlural;
--IMP:-i			OptFinalModalElement;
--IMP.PASS:-o	OptFinalModalElement;
-CommonVerb;
-@P.DER.ON@		VerbalDerivation;
+,Verb:0				Tense;
+,Verb-IMP:-e		OptFinalModalPlural;
+,Verb-IMP:-i		OptFinalModalElement;
+,Verb-IMP.PASS:-o	OptFinalModalElement;
+,Verb:0				CommonVerb;
+,Verb@P.DER.ON@:@P.DER.ON@		VerbalDerivation;
 
 LEXICON Antipassive
 -ANTIP:-i		PostAtipassive;
@@ -511,7 +511,7 @@ undo	Adv; ! jetzt
 īā		Adv; ! why
 
 LEXICON Adv
-.ADV:0	WordBoundary;
+,Adv:0	WordBoundary;
 
 LEXICON Conjunction
 adi		Conj; ! so
@@ -530,7 +530,7 @@ mā		Conj; ! so
 panu	Conj; ! obgleich
 
 LEXICON Conj
-.CONJ:0		WordBoundary;
+,Conj:0		WordBoundary;
 
 LEXICON Numeral
 šuga		Num; ! ein
@@ -917,13 +917,19 @@ ConsonantalOblique;
 VocalicCase;
 
 LEXICON NounThemVowel
+,Noun:0		PostNounThemVowel;
+
+LEXICON NounStem
+,Noun:0		PostNounStem;
+
+LEXICON PostNounThemVowel
 Relator;
 ConsonantalPossessive;
 Plural;
 Absolutive;
 ConsonantalCase;
 
-LEXICON NounStem
+LEXICON PostNounStem
 VocalicPossessive;
 VocalicCase;
 

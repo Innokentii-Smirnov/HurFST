@@ -32,12 +32,20 @@ class TransducerSystem
 		foreach ($segmentations as $segmentation)
 		{
 			$analyses = $this->morphology->analyze($segmentation);
-			foreach ($analyses as $analysis)
+			if ($analyses[0] !== '+?')
 			{
-				$tag = getTag($analysis);
-				$answer = $segmentation.' @  @ '.$tag.' @ '.$this->postfix.' @ ';
+				foreach ($analyses as $analysis)
+				{
+					list($stem, $pos, $tag) = parseAnalysis($analysis);
+					$answer = $segmentation.' @  @ '.$tag.' @ '.$pos.' @ ';
+					$answers[] = $answer;
+				}
 			}
-			$answers[] = $answer;
+			else
+			{
+				$answer = $segmentation.' @  @  @ unk @ ';
+				$answers[] = $answer;
+			}
 		}
 		return $answers;
 	}
