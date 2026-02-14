@@ -1,4 +1,4 @@
 *.bin
 *.txt
-!src/Segmentation/input.txt
-!src/Segmentation/corr.txt
+!src/*Segmentation/input.txt
+!src/*Segmentation/corr.txt
