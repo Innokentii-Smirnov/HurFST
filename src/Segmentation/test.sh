@@ -1,2 +1,4 @@
-filepath="Segmentation.foma"
-../../CompileFST/CompileFST.sh "$filepath"
+cd "../Morphology"
+../../CompileFST/CompileFST.sh "Morphology.foma"
+cd "../Segmentation"
+../../CompileFST/CompileFST.sh "Segmentation.foma"
