@@ -1,4 +1,6 @@
 load stack ../Segmentation/Segmentation.bin
 define BasicSegmentation;
-define GraphicVariance i (->) e, e (->) i, o (->) u, v (->) b, f (->) p || _ ;
+define QualityVariance i (->) e, e (->) i, o (->) u, v (->) b, f (->) p || _ ;
+define VowelLengthening a (->) ā, e (->) ē, i (->) ī, o (->) ō, u (->) ū || _ ;
+define GraphicVariance QualityVariance .o. VowelLengthening;
 define ExtendedSegmentation BasicSegmentation .o. GraphicVariance;
