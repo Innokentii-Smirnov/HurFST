@@ -262,7 +262,11 @@ Converb;
 -INF:-umme		ConsonantalCase;
 
 LEXICON Converb
-<"-CVB" .x. "-" [I|u] {+m+} A I ({+n})>	WordBoundary;
+-CVB:-o+m+ae	ConverbCont;
+
+LEXICON ConverbCont
+-n  WordBoundary;
+WordBoundary;
 
 LEXICON PurposiveConverbNumber
 SingularMarker; 
