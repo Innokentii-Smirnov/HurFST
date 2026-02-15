@@ -1090,18 +1090,13 @@ ShortEncliticPersonalPronoun;
 LEXICON LongEncliticPersonalPronoun
 ! We disallow (D) the coincidence of pronoun and verb subject agreement person and number features. 
 @D.SUBJ.1SG@=1SG.ABS:@D.SUBJ.1SG@=tta	OptSyntacticParticle;
-@D.SUBJ.1SG@=1SG.ABS:@D.SUBJ.1SG@=ttā	OptSyntacticParticle;
 @D.SUBJ.2SG@=2SG.ABS:@D.SUBJ.2SG@=mma	OptSyntacticParticle;
-@D.SUBJ.2SG@=2SG.ABS:@D.SUBJ.2SG@=mmā	OptSyntacticParticle;
 @D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=nna	OptSyntacticParticle;
-@D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=nnā	OptSyntacticParticle;
 @D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=ma	nin;
 @D.SUBJ.3SG@=3SG.ABS:@D.SUBJ.3SG@=mē	nin;
 @D.SUBJ.1PL@=1PL.ABS:@D.SUBJ.1PL@=dilla	OptSyntacticParticle;
 @D.SUBJ.2PL@=2PL.ABS:@D.SUBJ.2PL@=ffa	OptSyntacticParticle;
-@D.SUBJ.2PL@=2PL.ABS:@D.SUBJ.2PL@=ffā	OptSyntacticParticle;
 @D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=lla	OptSyntacticParticle;
-@D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=llā	OptSyntacticParticle;
 @D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=lle	OptSyntacticParticle;
 @D.SUBJ.3PL@=3PL.ABS:@D.SUBJ.3PL@=llē	OptSyntacticParticle;
 
