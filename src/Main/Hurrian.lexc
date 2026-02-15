@@ -936,9 +936,7 @@ VocalicCase;
 LEXICON Relator
 -RELAT.SG:-nē			ConsonantalCase;
 -RELAT.SG:-ne			ConsonantalCase;
--RELAT.SG:-n(e)			VocalicCase;
 -RELAT.PL:-na			Absolutive;
--RELAT.PL:-n(a)			LongPlural;
 
 LEXICON VocalicPossessive
 -1POSS.SG:-iffe		Absolutive;
