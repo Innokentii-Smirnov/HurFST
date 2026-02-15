@@ -227,16 +227,13 @@ LEXICON VerbalDerivation
 -FACT:-ōġ		InheritedValence;
 -FACT:-ūġ		InheritedValence;
 -iġ		InheritedValence;
--ōl		InheritedValence;
 -ol		InheritedValence;
 -om		InheritedValence;
 -ōr		InheritedValence;
--ūr		InheritedValence;
 -ur		InheritedValence;
 !-ōž	InheritedValence;
 !-ud	InheritedValence;
 -RECP:-ugar		InheritedValence;
--RECP:-ugār		InheritedValence;
 -upp	InheritedValence;
 -RES:-ɑšt	InheritedValence;
 -RES:-ōšt	InheritedValence;
@@ -244,7 +241,6 @@ LEXICON VerbalDerivation
 -RES:-išt	InheritedValence;
 -ešḫ	InheritedValence;
 -ull	i;
--ūll	i;
 
 LEXICON InheritedValence
 @R.VI.ON@	vi;
@@ -375,14 +371,11 @@ LEXICON FinalModalPlural
 
 LEXICON Voice
 -MED:-u		OptSyntacticParticle;
--MED:-ū		OptSyntacticParticle;
 -MED:-ūv	OptSyntacticParticle;
 
 LEXICON Tense
 Present;
--PST:-ōž	NonPresent;
 -PST:-ož	NonPresent;
--FUT:-ēd	NonPresent;
 -FUT:-ed	NonPresent;
 
 LEXICON Present
@@ -1044,11 +1037,9 @@ LEXICON LongErgative
 -ERG:-až	WordBoundary;
 
 LEXICON Genitive
--GEN:-vē	GenCont;
 -GEN:-ve	GenCont;
 
 LEXICON Dative
--DAT:-vā	WordBoundary;
 -DAT:-va	WordBoundary;
 
 LEXICON Directive
@@ -1061,12 +1052,10 @@ LEXICON Comitative
 -COM:-ra	WordBoundary;
 
 LEXICON Essive
--ESS:-ā		WordBoundary;
 -ESS:-a		WordBoundary;
 
 LEXICON Instrumental
 -INS:-ae	WordBoundary;
--INS:-āi	WordBoundary;
 
 LEXICON Equative1
 -EQU1:-ož		WordBoundary;
