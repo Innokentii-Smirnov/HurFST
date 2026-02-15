@@ -718,7 +718,7 @@ ag		a; ! side
 men		a; ! Zwilling?; Geschwister?
 ner		a; ! Mutter
 šāl		a; ! Tochter
-šēn		a; ! Bruder
+šen		a; ! Bruder
 tiš		a; ! Herz
 keli	a;
 pill	a; ! Kanal
@@ -754,6 +754,8 @@ pa+i+r	e; ! builder
 ḫiar+o+ḫḫ	e; ! Gold
 tāġ		e; ! Mann
 tiv		e; ! Wort
+id		e; ! Körper
+āšt		i; ! Frau
 
 LEXICON ēStem
 ēpḫ		ē; ! oven
@@ -772,14 +774,11 @@ LEXICON iStem
 el		i; ! Fest
 ēn		i; ! Gott
 en		i; ! Gott
-id		i; ! Körper
 ol		i; ! another
 ōl		i; ! anderer
-ārd		i; ! city
 āšḫ		i; ! pelt
-ašt		i; ! Frau
 ērv		i; ! Hund
-ēvr		i; ! Herr
+evr		i; ! Herr
 fur		i; ! Blick
 ḫan		i; ! Kind
 kaz		i; ! Becher
