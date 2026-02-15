@@ -180,7 +180,6 @@ CommonVerb;
 
 LEXICON Antipassive
 -ANTIP:-i		PostAtipassive;
--ANTIP:-ī		PostAtipassive;
 
 LEXICON PostAtipassive
 -b				WordBoundary;
