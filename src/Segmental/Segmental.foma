@@ -1,5 +1,5 @@
 source ../CharacterClasses/CharacterClasses.foma
-define Truncation V -> 0 || V C+ (V "-" n) _ "-" V;
+define Truncation V -> 0 || V C+ / "+" (V "-" n) _ "-" V;
 define SingleCoronalResonant P (B) [r|l|n] - [r (B) r|l (B) l|n (B) n];
 define RelatorOrModal [{nē}|{ne}|{n(e)}] "-" | [{na}|{n(a)}|l|{le}] ["-"|.#.];
 define Derivational "+" [{ġe}|{ni}|{ži}];
