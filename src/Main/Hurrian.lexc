@@ -979,7 +979,6 @@ LEXICON Plural
 -PL:-až		PluralCase;
 
 LEXICON LongPlural
--PL:-āž		PluralCase;
 Plural;
 
 LEXICON PluralCase
