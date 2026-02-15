@@ -212,10 +212,8 @@ LEXICON VerbalDerivation
 -al		InheritedValence;
 -am		InheritedValence;
 -CAUS:-an		vt;
--CAUS:-ān		vt;
 -CAUS:-ann		vt;
 -ITER:-ar		InheritedValence;
--ITER:-ār		InheritedValence;
 -āz		InheritedValence;
 -až		InheritedValence;
 -āž		InheritedValence;
@@ -262,7 +260,7 @@ Converb;
 -INF:-umme		ConsonantalCase;
 
 LEXICON Converb
--CVB:-o+m+ae	ConverbCont;
+<{-CVB} .x. %-[i|o]{+m+ae}> ConverbCont;
 
 LEXICON ConverbCont
 -n  WordBoundary;
@@ -279,8 +277,6 @@ LEXICON Participle
 -PTCP:-re		WordBoundary;
 
 LEXICON Polarity
--NEG:-ōd	Aspect;
--NEG:-ūd	Aspect;
 -NEG:-ud	Aspect;
 
 LEXICON Aspect
@@ -291,7 +287,6 @@ LEXICON PluralPerfective
 -PL.ERG:-id	Perfective;
 
 LEXICON Perfective
--TR.PFV:-ō	PerfectiveCont;
 -TR.PFV:-o	PerfectiveCont;
 
 LEXICON PerfectiveCont
@@ -347,7 +342,6 @@ LEXICON Cohortative
 -o		FinalModalPlural;
 
 LEXICON Potential
--POT:-ēva		OptFinalModalPlural;
 -POT:-eva		OptFinalModalPlural;
 
 LEXICON Optative
