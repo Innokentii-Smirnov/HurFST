@@ -1,12 +1,19 @@
 source ../CharacterClasses/CharacterClasses.foma
 define Truncation V -> 0 || V C+ (V "-" n) _ "-" V;
+define SingleCoronalResonant P (B) [r|l|n] - [r (B) r|l (B) l|n (B) n];
+define RelatorOrModal [{nē}|{ne}|{n(e)}] "-" | [{na}|{n(a)}|l|{le}] ["-"|.#.];
+define Derivational "+" [{ġe}|{ni}|{ži}];
+define Elision [a|e|i] -> 0 || SingleCoronalResonant (B) _ "-" RelatorOrModal | Derivational;
+define lnAssimilation [l|n] -> r || r (Boundary)  "-" _ ,,
+                       n -> l || l (Boundary) "-" _ ;
 define EmbracketedElision "(" ["+"|Phoneme]+ (">") ")" -> 0 || _ ;
 define Devoicing b -> p, d -> t, g -> k, v -> f, ž -> š, ġ -> ḫ || _ ;
 define ProgrNasalAssimilation n -> š // š ("=") _ ;
 define Triple "-" š -> 0 || _ "=" š^2; 
 define RegrNasalAssimilation n -> š || _ "+" š;
 define LabialAssimilation f -> p || p "-" _ ,, f -> t || t "-" _ ;
-define Morphonology Truncation .o. EmbracketedElision .o. Devoicing .o. ProgrNasalAssimilation .o. Triple .o.
+define Morphonology Truncation .o. Elision .o. lnAssimilation .o.
+    EmbracketedElision .o. Devoicing .o. ProgrNasalAssimilation .o. Triple .o.
 	RegrNasalAssimilation .o. LabialAssimilation;
 define Voicing p -> b, t -> d, k -> g, f -> v, š -> ž, ḫ -> ġ || V (Boundary) _ (Boundary) V ,
 														_ (Boundary) R , R (Boundary)_ , _ .#.;
