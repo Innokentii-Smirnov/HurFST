@@ -994,13 +994,13 @@ ThematicEquative2;
 ThematicLongAblativeInstrumental;
 
 LEXICON ThematicErgative
--EPNTH:-o	Ergative;
+0:-o	BasicErgative;
 
 LEXICON ThematicComitative
 -EPNTH:-o	Comitative;
 
 LEXICON ThematicEquative2
--EPNTH:-o	Equative2;
+0:-o	BasicEquative2;
 
 LEXICON ThematicLongAblativeInstrumental
 -EPNTH:-a	LongAblativeInstrumental;
@@ -1019,7 +1019,10 @@ LEXICON Absolutive
 .ABS:0		WordBoundary;
 
 LEXICON Ergative
--ERG:-ž		WordBoundary;
+0:-   BasicErgative;
+
+LEXICON BasicErgative
+-ERG:ž		WordBoundary;
 
 LEXICON LongErgative
 -ERG:-až	WordBoundary;
@@ -1049,7 +1052,10 @@ LEXICON Equative1
 -EQU1:-ož		WordBoundary;
 
 LEXICON Equative2
--EQU2:-nna		WordBoundary;
+0:-   BasicEquative2;
+
+LEXICON BasicEquative2
+-EQU2:nna		WordBoundary;
 
 LEXICON Associative
 -ASSOC:-nni		WordBoundary;
