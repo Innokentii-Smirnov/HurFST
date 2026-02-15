@@ -2,7 +2,6 @@ source ../CharacterClasses/CharacterClasses.foma
 define Derivational "+" [{ġe}|{ni}|{ži}];
 define EmbrV "(" [a|e|i] ")";
 define EmbrR "(" [l|n] ">" ")";
-define Anaptyxis [..] -> ɑ || C _ (B) n EmbrV "-" n | l EmbrV "-" EmbrR l | r EmbrV "-" EmbrR r;
 define DerivAnaptyxis [..] -> ɑ || V C _ C (EmbrV) Derivational;
 define RegrVowelAssim [ɑ|ɛ|ɪ|ɔ] -> a || _ "=" [[{tt}|{nn}|{dill}|{ll}] A|{d}|{n}|{dil}|{l}];
 define Specification ɛ -> e, ɪ -> i, ɔ -> o || _ ;
@@ -19,7 +18,7 @@ define CliticContraction {a=a} -> {(a)=ā} || _ n;
 define PartialDevoicing d -> t, ž -> š || Obstruent ("-"|"=") _ , _ ("-"|"=") Obstruent;
 define Voicing p -> b, t -> d, k -> g, f -> v, š -> ž, ḫ -> ġ || V (Boundary) _ (Boundary) V ,
 														_ (Boundary) R , R (Boundary)_ , _ .#.;
-define LexicalMorphonology Anaptyxis .o.
+define LexicalMorphonology
 	DerivAnaptyxis .o. RegrVowelAssim .o. Specification .o. VowelHarmony .o.
 	vDeletion .o. vAssimilation .o.
 	ErgativeSuffixDeletion .o. CompensatoryLengthening .o. Epenthesis .o.
