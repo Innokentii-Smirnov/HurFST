@@ -889,27 +889,27 @@ tēššob			CNoun; ! DN
 
 LEXICON a
 a	NounThemVowel;
-(a)	NounStem;
+a	NounStem;
 
 LEXICON ā
 ā	NounThemVowel;
-(ā)	NounStem;
+ā	NounStem;
 
 LEXICON e
 e	NounThemVowel;
-(e)	NounStem;
+e	NounStem;
 
 LEXICON ē
 ē	NounThemVowel;
-(ē)	NounStem;
+ē	NounStem;
 
 LEXICON i
 i	NounThemVowel;
-(i)	NounStem;
+i	NounStem;
 
 LEXICON ai
-ai		NounThemVowel;
-a(i)	NounStem;
+ai	NounThemVowel;
+ai	NounStem;
 
 LEXICON AthemNoun
 NounThemVowel;
