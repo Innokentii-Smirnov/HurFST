@@ -5,7 +5,7 @@ COLUMNS = ['transcription', 'segmentation', 'translation', 'morph_tag', 'pos']
 directory = sys.argv[1]
 assert path.exists(directory), 'The output directory does not exist'
 selected_columns = sys.argv[2:4]
-words = pd.read_csv('data/words.csv', names=COLUMNS)
+words = pd.read_csv('data/words.csv', names=COLUMNS, keep_default_na=False)
 df = words.loc[:, selected_columns]
 print(len(df))
 df.drop_duplicates(selected_columns, inplace=True)
