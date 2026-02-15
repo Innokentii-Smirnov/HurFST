@@ -1,5 +1,5 @@
 source ../CharacterClasses/CharacterClasses.foma
-define Truncation V -> 0 || V C+ _ "-" V;
+define Truncation V -> 0 || V C+ (V "-" n) _ "-" V;
 define EmbracketedElision "(" ["+"|Phoneme]+ (">") ")" -> 0 || _ ;
 define Devoicing b -> p, d -> t, g -> k, v -> f, ž -> š, ġ -> ḫ || _ ;
 define ProgrNasalAssimilation n -> š // š ("=") _ ;
