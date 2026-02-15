@@ -940,11 +940,10 @@ LEXICON Relator
 LEXICON VocalicPossessive
 -1POSS.SG:-iffe		Absolutive;
 -1POSS.SG:-iffe		LongAblativeInstrumental;
--1POSS.SG:-iff(e)	VocalicCase;
-<"-1POSS" ".SG" .x. "-" I {ff} U>	ConsonantalCase;
--3POSS.SG:-ī		Case;
+-1POSS.SG:-iffe		VocalicCase;
+-1POSS.SG:-iffu		ConsonantalCase;
 -3POSS.SG:-i		Case;
--1POSS:-iff(e)		Plural;
+-1POSS:-iffe		Plural;
 -3POSS:-i			Plural;
 
 LEXICON ConsonantalPossessive
